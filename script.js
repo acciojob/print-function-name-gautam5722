@@ -1,4 +1,5 @@
-function AccioJob() {
-    alert(arguments.callee.name);
+function functionName() {
+    alert("AccioJob");
 }
-AccioJob(); 
+
+functionName(); // Alerts "functionName
